@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//src/knbc.py=utf-8
+encoding//src/naiveBayesClassify.py=utf-8
+encoding//src/nodeGraph.py=utf-8
+encoding//src/spam.py=utf-8
+encoding//src/testknbc.py=utf-8
+encoding//src/wordCountByMecab_multiCore.py=utf-8
