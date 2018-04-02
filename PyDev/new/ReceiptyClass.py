@@ -12,6 +12,7 @@ import hashlib
 
 import csv
 import codecs
+import glob
 
 from WarekiClass import WarekiClass
 
@@ -40,10 +41,28 @@ class ReceiptyClass(object):
 
     def readOutboundDetail(self):
 
-        outbound = os.path.join(self.data_dir, "出庫201803130958.csv")
-        self.df_out = pd.read_csv(outbound,encoding="Shift_JISx0213",header=0)
+        date_ops = lambda x:pd.datetime.strptime(x,"%Y/%m/%d")
+
+        out_kanji = u'出庫'
+        #os.listdir("./")
+
+        outbound = os.path.join(self.data_dir, out_kanji)
+        outfilename = sorted( glob.glob(outbound + "*"))[-1]        
+
+        #outbound = os.path.join(self.data_dir, "出庫201803130958.csv")
+        self.df_out = pd.read_csv(outfilename,encoding="Shift_JISx0213",header=0)
+
+        #col_names = [ 'c{0:02d}'.format(i) for i in range( len( df_out.columns ) ) ]
+        col_names = [[ "c00","czDate","c02","c03","standard","c05","total_amount","c07","c08","c09","c10","medicine","c12","YJcode","c14","c15","c16","c17" ]     ]
+        self.df_out.columns = col_names
+        self.df_out.czDate = self.df_out.czDate.apply(date_ops)
 
     def weekDaySearch(self, date):
+
+        # 1. incoming date is numpy datetime
+        # 2. need to convert pandas date format
+        # 3. it can be used as date object of pandas
+        #
         date = pd.to_datetime(date)
         
         while True:
@@ -107,8 +126,14 @@ class ReceiptyClass(object):
 
         df_tok =df_tok.append(df_national)
 
+        df_merge =  pd.merge(df_tok,self.df_out, on = ["czDate", "total_amount", "medicine"], how="left" )
+        cols = ["name","mark","hospital","medicine","nextDate","total_amount","mark2","exp","standard","czDate"]
+        df_merge = df_merge[cols]
+
+        print(df_merge.head() )
+
         integrate_csvfile = os.path.join(self.data_dir, "integrate.csv")
-        df_tok.to_csv(integrate_csvfile, index=False,encoding="cp932")
+        df_merge.to_csv(integrate_csvfile, index=False,encoding="cp932")
 
     def buildPersonalBlock(self,dest="tokyo"):
 
