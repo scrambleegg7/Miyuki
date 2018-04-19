@@ -132,13 +132,17 @@ class ReceiptyClass(object):
 
         print(df_merge.head() )
 
+        #print("* minimum czDate", min(df_merge.czDate))
+
         integrate_csvfile = os.path.join(self.data_dir, "integrate.csv")
         df_merge.to_csv(integrate_csvfile, index=False,encoding="cp932")
 
+        return df_merge
+
     def buildPersonalBlock(self,dest="tokyo"):
 
-        baseDir = "/Users/donchan/Documents/myData/miyuki"
-        #baseDir = /Volumes/myShare/RECEPTY
+        #baseDir = "/Users/donchan/Documents/myData/miyuki"
+        baseDir = "/Volumes/myShare/RECEPTY"
         RECEPTY_DIR = os.path.join( baseDir,   dest )
         filename = os.path.join(RECEPTY_DIR,"RECEIPTY.CYO")
         
