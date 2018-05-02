@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>みゆき薬局</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <!-- link href="css/stylish-portfolio.min.css" rel="stylesheet" -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">みゆき薬局</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-top">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">私達について</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#services">私達の目指すこと</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <h1 class="mb-1">みゆき薬局</h1>
+        <h3 class="mb-5">
+          <em>いたばしく徳丸にある保険薬局</em>
+        </h3 class="col-xs-12">
+        <a class="btn btn-primary btn-xl js-scroll-trigger mr-5" href="#about">私たちについて</a>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact">場所を探す</a>
+      
+      </div>
+      <div class="overlay"></div>
+    </header>
+
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
+      <div class="container text">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>みゆき薬局について(沿革)</h2>
+            <p class="lead mb-5">平成14年11月板橋区徳丸の地に開店。<br>
+              住宅地にありながらも近隣医療機関の処方箋の応需対応を行い、
+              地域に根ざした医療用薬品の供給を行なっています。<br>
+              現在1600点以上の医療用医薬品の在庫を保持し、先発品のみならずジェネリック医薬品推進を患者様との相談のもと進めております。
+            </p>
+            <p class="lead mb-5">処方箋調剤、服薬指導、服薬相談など地域における医療推進の担い手となるようにしています。</p>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">出来ること</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="content-section bg-primary text-white text-center" id="services">
+      <div class="container">
+        <div class="content-section-heading">
+          <h3 class="text-secondary mb-0">サービス</h3>
+          <h2 class="mb-5">私達が目指すこと</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-close"></i>
+            </span>
+            <h4>
+              <strong>ジェネリック医薬品の推進</strong>
+            </h4>
+            <p class="text-faded mb-0"></p>
+          </div>
+          <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+                <i class="icon-close"></i>
+            </span>
+            <h4>
+              <strong>ITへの取り組み</strong>
+            </h4>
+            <p class="text-faded mb-0"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Callout -->
+    <section class="callout">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 my-4">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">ジェネリック医薬品を勧める理由</h4>
+                <p class="card-text">ジェネリック医薬品は、先発医薬品と治療学的に同等であるものとして製造販売が承認されて、
+                  一般的に研究開発に要する費用が低く抑えられることから、先発医薬品に比べて薬価が安くなっています。
+                  後発医薬品を勧めることで、患者さまへの負担の軽減につながります。<br><br>
+                  また、政府サイドからの推進策として、厚生労働省が平成25年4月に「後発医薬品のさらなる使用促進のためのロードマップ」を策定しました。
+                  平成29年央に後発医薬品の使用割合の目標を70％以上と設定し、
+                  平成30年度から平成32年度末までの間のなるべく早い時期に80％以上とする、新たな数量シェア目標を定めました。<br><br>
+                  <a class="social-link" href="http://www.mhlw.go.jp/seisaku/2012/03/01.html">
+                  厚生労働省ジェネリック医薬品について
+                  </a>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 my-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">ITへの取り組み</h4>
+                  <p class="card-text">
+                    CPUおよびGPUの機能発展が目覚ましい中、保険薬局においても以前と比較し安価なコストでシステムを構築いやすい環境になってきています。
+                    2005年、外部ソフトウェア・ベンター提供の調剤管理システムの導入から始まり、電子薬歴管理、医薬品入出庫管理を利用し続けてきています。
+                    2017年、医薬品卸のネットワークに直接接続することが可能となり、医薬品在庫管理から直接医療用医薬品の発注を行う体制を組むことができました。
+
+                    <br>
+                    在庫管理については、過去の出庫動向より将来の動向を予測出来るよう独自に改良したプログラムを薬局内にて稼働させ、
+                    より正確なタイミングで医薬品を発注することが可能となり、適正在庫を常に保持することが可能となりました。
+
+                    <br>
+                    調剤過誤をゼロにするという目標を達成するため、出庫医薬品全ての画像記録をオフラインおよびリアルタイムで行い、
+                    日々の在庫管理から判明した理論在庫との差異を画像と確認しながら薬の配布ミスをなくすようにしています。
+                    </a>
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+  
+        </div>
+      </div>
+
+    </section>
+  
+
+    <!-- Call to Action -->
+    <section class="content-section bg-primary text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">わたしたちの場所 連絡先</h2>
+      </div>
+    </section>
+
+    <!-- Map -->
+    <section id="contact" class="map">
+      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3237.2115568687705!2d139.65371441570917!3d35.77017928017367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ec8cacfcb5f7%3A0x156fe25be10b3fd4!2z44G_44KG44GN6Jas5bGA!5e0!3m2!1sja!2sjp!4v1514263492727"></iframe>
+      <!-- iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe -->
+      <br/>
+      <!-- small>
+        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+      </small -->
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center bg-info">
+      <div class="container">
+        <span class="service-icon rounded-circle mx-auto mr-3">
+            <i class="icon-screen-smartphone"></i>
+        </span>
+        <h4>
+          <strong>03-5921-0122</strong>
+        </h4>
+
+        <!-- ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="#">
+              <i class="icon-screen-smartphone"></i>
+            </a>
+            03-5921-0122
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="#">
+              <i class="icon-social-twitter"></i>
+            </a>
+          </li>
+        </ul -->
+        <p class="text-muted small mb-0">Copyright &copy; みゆき薬局 2018</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+
+  </body>
+
+</html>
